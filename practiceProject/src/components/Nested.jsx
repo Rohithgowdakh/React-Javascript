@@ -5,8 +5,7 @@ const CustomerDetails=()=>{
         <>
             <CustomerName/>
             <CustomerLocation/>
-        </>
-    )
+        </>)
 }
 export const CustomerName=()=><h1>Rohith</h1>
 
