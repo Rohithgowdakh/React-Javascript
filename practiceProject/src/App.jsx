@@ -15,6 +15,7 @@ import Counter from "./components/Counter"
 import ArayInEvent from "./components/ArayInEvent"
 import EventDemo3 from "./components/EventDemo3"
 import UseEffectHooks from "./components/UseEffectHooks"
+import UseEffectWithoutInitislArray from "./components/UseEffectWithoutInitislArray"
 function App() {
 
   return (
@@ -36,6 +37,7 @@ function App() {
       <ArayInEvent/>
       <EventDemo3/>
       <UseEffectHooks/>
+      <UseEffectWithoutInitislArray/>
     </>
   )
 }
