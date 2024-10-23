@@ -16,6 +16,7 @@ import ArayInEvent from "./components/ArayInEvent"
 import EventDemo3 from "./components/EventDemo3"
 import UseEffectHooks from "./components/UseEffectHooks"
 import UseEffectWithoutInitislArray from "./components/UseEffectWithoutInitislArray"
+import UseEffectWithInitialArray from "./components/UseEffectWithInitialArray"
 function App() {
 
   return (
@@ -38,6 +39,7 @@ function App() {
       <EventDemo3/>
       <UseEffectHooks/>
       <UseEffectWithoutInitislArray/>
+      <UseEffectWithInitialArray/>
     </>
   )
 }
