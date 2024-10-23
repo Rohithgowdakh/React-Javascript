@@ -13,6 +13,8 @@ import EventDemo1 from "./components/Events"
 import EventDemo2 from "./components/UseStateHooks"
 import Counter from "./components/Counter"
 import ArayInEvent from "./components/ArayInEvent"
+import EventDemo3 from "./components/EventDemo3"
+import UseEffectHooks from "./components/UseEffectHooks"
 function App() {
 
   return (
@@ -32,6 +34,8 @@ function App() {
       <EventDemo2/>
       <Counter/>
       <ArayInEvent/>
+      <EventDemo3/>
+      <UseEffectHooks/>
     </>
   )
 }
