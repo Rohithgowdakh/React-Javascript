@@ -17,11 +17,20 @@ import EventDemo3 from "./components/EventDemo3"
 import UseEffectHooks from "./components/UseEffectHooks"
 import UseEffectWithoutInitislArray from "./components/UseEffectWithoutInitislArray"
 import UseEffectWithInitialArray from "./components/UseEffectWithInitialArray"
+import MultipleReturnDemo from "./components/MultipleReturnDemo"
+import ShortCircuitEvaluationDemo from "./components/ShortCircuitEvaluationDemo"
+import TernaryOperator from "./components/TernaryOperator"
+import ShortCircuitEvaluation from "./components/ShortCircuitEvaluation"
+import FormBasics from "./components/FormBasics"
+import FetchContentFromApi from "./components/FetchContentFromApi"
+import FakeStoreApiDemo from "./components/FakeStoreApiDemo"
+import GitHubUserApi from "./components/GitHubUserApi"
+import JsonPlaceHolderCommentsApi from "./components/JsonPlaceHolderCommentsApi"
 function App() {
 
   return (
     <>
-      <FirstComponent />
+      {/* <FirstComponent />
       <ExapmleRafce/>
       <CustomerDetails/>
       <CustomerName/>
@@ -40,6 +49,15 @@ function App() {
       <UseEffectHooks/>
       <UseEffectWithoutInitislArray/>
       <UseEffectWithInitialArray/>
+      <MultipleReturnDemo/>
+      <ShortCircuitEvaluationDemo/>
+      <TernaryOperator/>
+        <ShortCircuitEvaluation/>
+        <FormBasics/>
+        <FetchContentFromApi/>
+        <FakeStoreApiDemo/>
+        <GitHubUserApi/> */}
+        <JsonPlaceHolderCommentsApi/>
     </>
   )
 }

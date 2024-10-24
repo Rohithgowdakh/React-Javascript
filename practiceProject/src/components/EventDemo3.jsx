@@ -15,7 +15,7 @@ const EventDemo3 = () => {
         {
             batch.map((batch1)=>{
                 return(
-                    <h2>{batch1.name}</h2>
+                    <h2 key={batch1.id}>{batch1.name}</h2>
                 )
             })
         }

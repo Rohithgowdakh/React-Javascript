@@ -6,6 +6,7 @@ import ContactUs from "./pages/ContactUs";
 import Services from "./pages/Services";
 import Home from "./pages/Home";
 import Footer from "./components/footer";
+import PageNotFound from "./components/PageNotFound";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <Route path="/Services" element={<Services/>}></Route>
       <Route path="/" element={<Home/>}></Route>
       <Route path="/Home" element={<Home/>}></Route>
+      <Route path="*" element={<PageNotFound/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
