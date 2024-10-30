@@ -1,12 +1,11 @@
 import React from 'react'
-import ContentComponent from '../components/ContentComponent'
 import TitleComponent from '../components/TitleComponent'
-
+import ContentComponent from '../components/ContentComponent'
 const About = () => {
   return (
     <div>
-        <TitleComponent title="About us Page"></TitleComponent>
-        <ContentComponent/>
+        <TitleComponent title="About Us Page" />
+        <ContentComponent />
     </div>
   )
 }

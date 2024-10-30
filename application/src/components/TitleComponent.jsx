@@ -1,9 +1,9 @@
 import React from 'react'
 
-const TitleComponent = (Props) => {
+const TitleComponent = (props) => {
   return (
     <div>
-        <h1 className='text-center'>{Props.title}</h1>
+        <h2 className='text-center'>{props.title}</h2>
     </div>
   )
 }
